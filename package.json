@@ -1,0 +1,19 @@
+{
+  "name": "playwright-front-end-bdd-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bddgen": "npx bddgen",
+    "test": "npx playwright test --reporter=html,list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0",
+    "playwright-bdd": "^7.5.0"
+  }
+}
